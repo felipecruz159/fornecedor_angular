@@ -7,7 +7,7 @@ import { Supplier } from '../components/supplier/supplier';
   providedIn: 'root'
 })
 export class SupplierService {
-  url: string = 'http://localhost:3000/Supplier';
+  url: string = 'http://localhost:8080/suppliers';
 
   constructor(private http: HttpClient) { }
 
